@@ -53,4 +53,8 @@ public class Position {
         this.y = p_y;
         return this; 
     }
+
+    public String toString(){
+        return ("position x : " + this.x + "position y :" + this.y);
+    }
 }
