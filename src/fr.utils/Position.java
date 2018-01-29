@@ -1,3 +1,5 @@
+package fr.utils;
+
 /**
  * Position
  * the position of an element

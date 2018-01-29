@@ -1,3 +1,5 @@
+package fr.elemens;
+
 /**
  * TypeBloc
  * an enumeration of the blocs used in the graphical interface

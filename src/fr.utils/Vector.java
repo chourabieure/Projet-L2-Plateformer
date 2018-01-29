@@ -1,3 +1,5 @@
+package fr.utils;
+
 /**
  * Vector
  * A object assigned as a 2D Vector
