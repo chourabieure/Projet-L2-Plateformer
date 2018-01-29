@@ -51,6 +51,13 @@ public class Bloc extends Element {
         return this.type;
     }
 
+    /**
+     * @return the transparency of the bloc
+     */
+    public boolean getTransparent () {
+        return this.transparent;
+    }
+
     @Override
     public void setPos(Position p_pos) {
         this.pos = p_pos;
@@ -83,6 +90,14 @@ public class Bloc extends Element {
         this.type = p_type;
     }
 
+    /**
+     * @param p_transparent the transparency to set
+     */
+    public void setTransparent(boolean p_transparent) {
+        this.transparent = p_transparent;
+    }
+
+    //--- Méthodes d'instance
     @Override
     public void apllyForce(Vector force) {
         this.pos.setX(this.vel.getX());
