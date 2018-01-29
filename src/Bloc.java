@@ -83,6 +83,14 @@ public class Bloc extends Element {
         this.type = p_type;
     }
 
+    @Override
+    public void apllyForce(Vector force) {
+        this.pos.setX(this.vel.getX());
+        this.pos.setY(this.vel.getY());
+        this.vel.add(this.acc);
+        this.acc.set(0, 0);
+    }
+
     // Display
     @Override
     public String toString() {

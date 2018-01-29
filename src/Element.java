@@ -31,7 +31,7 @@ abstract class Element {
     /**
      * update the state of the current element
      */
-    abstract void update ();
+    //abstract void update ();
 
     //--- Display
     @Override
