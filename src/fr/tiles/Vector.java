@@ -1,4 +1,4 @@
-package fr.utils;
+package fr.tiles;
 
 /**
  * Vector
@@ -14,7 +14,7 @@ public class Vector {
      * @param p_x the x value of the vector
      * @param p_y the y value of the vector
      */
-    Vector (double p_x, double p_y) {
+    public Vector (double p_x, double p_y) {
         this.x = p_x;
         this.y = p_y;
     }

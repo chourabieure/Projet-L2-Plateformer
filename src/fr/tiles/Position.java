@@ -1,4 +1,4 @@
-package fr.utils;
+package fr.tiles;
 
 /**
  * Position
@@ -8,7 +8,7 @@ public class Position {
     // Atributes
     private double x, y;
 
-    Position (double p_x, double p_y) {
+    public Position (double p_x, double p_y) {
         this.x = p_x;
         this.y = p_y;
     }
@@ -57,6 +57,6 @@ public class Position {
     }
 
     public String toString(){
-        return ("position x : " + this.x + "position y :" + this.y);
+        return ("x: " + this.x + " y: " + this.y);
     }
 }

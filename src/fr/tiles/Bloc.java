@@ -1,6 +1,4 @@
-package fr.elemens;
-import fr.utils.*;
-
+package fr.tiles;
 
 /**
  * Bloc
@@ -11,7 +9,7 @@ public class Bloc extends Element {
     private boolean transparent; // if the palyer can jump through the block
 
     // Constructor
-    Bloc (Position p_pos, double p_width, double p_height, TypeBloc p_type, boolean p_transparent) {
+    public Bloc (Position p_pos, double p_width, double p_height, TypeBloc p_type, boolean p_transparent) {
         this.pos = p_pos;
         this.width = p_width;
         this.height = p_height;
@@ -113,6 +111,6 @@ public class Bloc extends Element {
     // Display
     @Override
     public String toString() {
-        return super.toString() + "\nType: " + this.type + "\nTransparent: " + this.transparent;
+        return super.toString() + "\nType: " + this.type + "\nTransparent: " + this.transparent + "\n";
     }
 }

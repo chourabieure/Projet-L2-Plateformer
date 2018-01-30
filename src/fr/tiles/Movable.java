@@ -1,12 +1,11 @@
-package fr.elemens;
-import fr.utils.*;
+package fr.tiles;
 
 /**
  * Movable
  */
 public class Movable extends Element {
     //====== Constructeur ======//
-    Movable (Position p_pos, double p_width, double p_height, Vector p_vel, Vector p_acc) {
+    public Movable (Position p_pos, double p_width, double p_height, Vector p_vel, Vector p_acc) {
         this.pos = p_pos;
         this.width = p_width;
         this.height = p_height;
@@ -78,6 +77,6 @@ public class Movable extends Element {
     //--- Affichage
     @Override
     public String toString() {
-        return super.toString() + "Movable";
+        return super.toString() + "\nMovable\n";
     }
 }
